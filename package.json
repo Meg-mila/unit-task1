@@ -1,0 +1,35 @@
+{
+  "name": "unit-task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "jest --coverage",
+    "coverage": "jest --coverage",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meg-mila/unit-task1.git"
+  },
+  "author": "Margarita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meg-mila/unit-task1/issues"
+  },
+  "homepage": "https://github.com/Meg-mila/unit-task1#readme",
+  "dependencies": {
+    "core-js": "^3.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3"
+  }
+}
